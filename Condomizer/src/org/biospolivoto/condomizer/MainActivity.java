@@ -12,11 +12,9 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -67,9 +65,9 @@ public class MainActivity extends ActionBarActivity {
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
-			View rootView = inflater.inflate(R.layout.fragment_main, container,
+			View rootView = inflater.inflate(R.layout.convocatoria, container,
 					false);
-			context = inflater.getContext();
+			context = inflater.getContext();/*
 			inputNombreUsuario = (EditText)rootView.findViewById(R.id.input_usr);
 			inputUsrPsswd = (EditText)rootView.findViewById(R.id.input_psswd);
 			login = (Button)rootView.findViewById(R.id.logIn);
@@ -83,7 +81,7 @@ public class MainActivity extends ActionBarActivity {
 					HandleNetworking networker = new HandleNetworking(context);
 					networker.execute(args);
 				}
-			});
+			});*/
 			return rootView;
 		}
 		

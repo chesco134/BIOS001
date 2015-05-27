@@ -7,5 +7,13 @@
     <string name="input_user">Usuario</string>
     <string name="input_psswd">Contraseña</string>
     <string name="login">Ingresar</string>
+    <string name="conv_name">Nombre</string>
+    <string name="conv_dir">Dirección</string>
+    <string name="conv_date">Fecha</string>
+    <string name="conv_place">Lugar</string>
+    <string name="conv_orden">Orden del día</string>
+    <string name="conv_time">Hora</string>
+    <string name="conv_crear">Crear</string>
 
+	
 </resources>

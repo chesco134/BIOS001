@@ -11,7 +11,7 @@ public class Servicios {
 
 	private static DBConnection dbConnection;
 	protected static final String usr = "root";
-	protected static final String psswd = "pokemones";
+	protected static final String psswd = "sugar";
 	protected SHAExample cypher;
 
 	public Servicios() {

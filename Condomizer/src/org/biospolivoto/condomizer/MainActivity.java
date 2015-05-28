@@ -2,11 +2,11 @@ package org.biospolivoto.condomizer;
 
 import java.util.Vector;
 
+import android.support.v4.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -67,9 +67,9 @@ public class MainActivity extends ActionBarActivity {
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
-			View rootView = inflater.inflate(R.layout.fragment_main, container,
+			View rootView = inflater.inflate(R.layout.convocatoria, container,
 					false);
-			context = inflater.getContext();
+			context = inflater.getContext();/*
 			inputNombreUsuario = (EditText)rootView.findViewById(R.id.input_usr);
 			inputUsrPsswd = (EditText)rootView.findViewById(R.id.input_psswd);
 			login = (Button)rootView.findViewById(R.id.logIn);
@@ -79,11 +79,12 @@ public class MainActivity extends ActionBarActivity {
 					nombreUsuario = inputNombreUsuario.getText().toString();
 					usrPsswd = inputUsrPsswd.getText().toString();
 					String[] args = {nombreUsuario,usrPsswd};
-					Toast.makeText(context, nombreUsuario + "\n" + usrPsswd, Toast.LENGTH_LONG).show();
+					Toast.makeText(context, nombreUsuario + "\n" + usrPsswd, Toast.LENGTH_SHORT).show();
 					HandleNetworking networker = new HandleNetworking(context);
 					networker.execute(args);
 				}
 			});
+			*/
 			return rootView;
 		}
 		

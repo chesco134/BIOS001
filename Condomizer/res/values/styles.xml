@@ -28,7 +28,7 @@
     </style>
     <style name="TitleTextStyle"
            parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
-        <item name="android:textColor">@color/actionbar_text</item>
+        <item name="android:textColor">@color/azulorfanato</item>
     </style>
     <style name="TabTextStyle"
            parent="@style/Widget.AppCompat.ActionBar.TabText">
@@ -45,7 +45,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">20sp</item>
         <item name="android:layout_marginRight">20sp</item>
-        <item name="android:textColor">@color/fuente_1</item>
+        <item name="android:textColor">@color/fuente_2</item>
     </style>
     
 </resources>

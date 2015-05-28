@@ -22,4 +22,6 @@
     <color name="slate">#ff76a9b5</color>
     <color name="fondo_1">#ff3333ee</color>
     <color name="fuente_1">#ffececec</color>
+    <color name="fuente_2">#ff4d4d4d</color>
+    <color name="azulorfanato">#ffbdf5f5</color>
 </resources>

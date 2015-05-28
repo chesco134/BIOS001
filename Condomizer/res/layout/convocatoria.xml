@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azulorfanato"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/input_name_label"
+            style="@style/margen_lr_20"
+            android:layout_marginTop="20sp"
+            android:text="@string/conv_name" />
+
+        <EditText
+            android:id="@+id/input_name"
+            style="@style/margen_lr_20"
+            android:layout_marginTop="20sp"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/input_dir_label"
+            style="@style/margen_lr_20"
+            android:layout_marginTop="20sp"
+            android:text="@string/conv_dir" />
+
+        <EditText
+            android:id="@+id/input_dir"
+            style="@style/margen_lr_20"
+            android:layout_marginTop="20sp"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/input_place_label"
+            style="@style/margen_lr_20"
+            android:layout_marginTop="20sp"
+            android:text="@string/conv_place" />
+
+        <EditText
+            android:id="@+id/input_place"
+            style="@style/margen_lr_20"
+            android:layout_marginTop="20sp"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/input_date_label"
+            style="@style/margen_lr_20"
+            android:layout_marginTop="20sp"
+            android:text="@string/conv_date" />
+
+        <EditText
+            android:id="@+id/input_date"
+            style="@style/margen_lr_20"
+            android:layout_marginTop="20sp"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/input_orden_label"
+            style="@style/margen_lr_20"
+            android:layout_marginTop="20sp"
+            android:text="@string/conv_orden" />
+
+        <EditText
+            android:id="@+id/input_orden"
+            style="@style/margen_lr_20"
+            android:layout_marginTop="20sp"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/input_time_label"
+            style="@style/margen_lr_20"
+            android:layout_marginTop="20sp"
+            android:text="@string/conv_time" />
+
+        <EditText
+            android:id="@+id/input_time"
+            style="@style/margen_lr_20"
+            android:layout_marginTop="20sp"
+            android:inputType="time" />
+    </LinearLayout>
+
+</ScrollView>
